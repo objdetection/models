@@ -1,0 +1,14 @@
+item {
+  id: 1
+  name: 'coke_12'
+}
+
+item {
+  id: 2
+  name: 'diet_coke_12'
+}
+
+item {
+  id: 3
+  name: 'coke_zero_12'
+}

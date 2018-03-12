@@ -4,7 +4,8 @@ from setuptools import find_packages
 from setuptools import setup
 
 
-REQUIRED_PACKAGES = ['Pillow>=1.0']
+REQUIRED_PACKAGES = ['Pillow>=4.0',
+                     'matplotlib>=2.0']
 
 setup(
     name='object_detection',

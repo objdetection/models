@@ -25,10 +25,7 @@ import functools
 import matplotlib; matplotlib.use('Agg')  # pylint: disable=multiple-statements
 import matplotlib.pyplot as plt  # pylint: disable=g-import-not-at-top
 import numpy as np
-import PIL.Image as Image
-import PIL.ImageColor as ImageColor
-import PIL.ImageDraw as ImageDraw
-import PIL.ImageFont as ImageFont
+from PIL import Image, ImageColor, ImageFont, ImageDraw
 import six
 import tensorflow as tf
 
